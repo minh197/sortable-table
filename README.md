@@ -9,7 +9,7 @@ This application is my attempt to build a sortable table using React. Currently,
 +Row.js <br />
 +TableHeader.js <br />
 1) First, the user needs to input their name, and the application will promptly proceed to the main page.
-2) Then, the user can create and delete the row(s). </br/>
+2) Then, the user can create and delete the row(s). <br/>
 There are a couple of ways that we could sort our rows. The first way is to use the sort() function. The sort() function will compare all the elements inside a given array. By default, it will sort ascendingly. The sort() will return a negative number. The first item, a, is less than b and moved up, indicating ascending order and vice versa. However, there is one obstacle to this approach. In the Unicode table, capital letters have lesser values than smaller letters. For example, if a is "Ibas" and b is "doe." We expect that _doe_ will be listed before _Ibas_; however, we will see the opposite using only the sort(). 
 
 *Note 
